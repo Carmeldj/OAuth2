@@ -20,6 +20,18 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'github_id',
+        'github_token',
+        'github_refresh_token',
+        'google_id',
+        'google_token',
+        'google_refresh_token',
+        'facebook_id',
+        'facebook_token',
+        'facebook_refresh_token',
+        'linkedin_id',
+        'linkedin_token',
+        'linkedin_refresh_token'
     ];
 
     /**
